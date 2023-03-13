@@ -1,0 +1,46 @@
+body {
+    background-image: url('../img/sampleVideo.mp4');
+}
+
+#header{
+    margin:10px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    font-size: 60px;
+}
+
+#profile{
+    margin:10%;
+}
+
+.container{
+    margin:10%;
+}
+
+.header-container{
+    margin:10px;
+}
+
+#signup-section{
+    margin-top:5%;
+    text-align: center;
+}
+
+#logout{
+    margin-left: 95%;
+}
+
+nav{
+    background-image: url('../img/sampleVideo.mp4');
+}
+
+nav>a{
+    margin-top:30%;
+    color: black;
+    padding: 35px 25px;
+    text-decoration: none;
+    /* background-image: url('../img/'); */
+}
+
+/*Dashboard*/

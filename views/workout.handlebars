@@ -1,0 +1,19 @@
+<section class="col-lg-10"> 
+  <div class="workout-list">
+  {{#if workouts.length }}
+    {{#each workouts as |workout|}}
+    <h2>{{format_date complete_date}}</h2>
+    <p>You have completed the following exercise: {{exercise_name}}.</p>
+    <p>Total exercise time: {{exercise_time}} mins</p>
+    {{/each}}
+  {{else}}
+    <p>Welcome to the SwoleMate & BuffBae! You haven't done any workout. Press track activity to start!</p>
+  {{/if}}
+</div>
+  <div class="col-4 track-activity-section" id="track-activity-section"></div>
+    <a href="/exercise">
+      <button class="btn btn-primary"> Track activity</button>
+    </a> 
+  </div>
+</section>
+

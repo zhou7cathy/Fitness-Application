@@ -1,0 +1,28 @@
+<h1>Track your Activity</h1>
+<form id="exercise_form" class="track-activity-form">
+  <div class="row">
+    {{#each exercises as |exercise|}}
+    <div class="col-md-6 mb-3">
+      <label for="exampleFormControlInput1" class="form-label">{{exercise.exercise_name}}</label>
+      <input type="number" class="form-control" id="{{exercise.id}}" placeholder="Enter time you spend on this exercise in minutes">
+    </div>
+    {{/each}}
+  </div>
+  <style>
+      .btn-primary {
+        background-color: #3f3d56;
+        border-color: #3f3d56;
+        font-weight: 600;
+        transition: all 0.3s ease;
+      }
+      .btn-primary:hover {
+        background-color: #1f548d;
+        border-color: #d6eaff;
+      }
+    </style>
+  <button class="track-activity btn btn-primary" type="submit" value="Submit">
+    Submit
+  </button>
+</form>
+
+<script src="./js/trackActivity.js"></script>

@@ -1,0 +1,48 @@
+<style>
+h5{
+  text-align: center;
+}
+#trendingList {
+
+  list-style: none;
+}
+
+#trendingList li {
+    background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+</style>
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <h5>Your Progress this Week</h5>
+        <div>
+            <canvas id="myChart"></canvas>
+        </div>
+    </div>
+    <div class="col-md-4 justify-center">
+      <div class="card">
+        <div class="card-header underline text-center">Top 3 Workouts this Week!</div>
+        <div class="card-body">
+    <ul id="trendingList" class="text-center">
+      {{#each trendingList}}
+    <li>{{workout}}</li>
+    <li>{{workout}}</li>
+    <li>{{workout}}</li>
+      {{/each}}
+        </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="/js/chart.js"></script>
