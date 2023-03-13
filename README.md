@@ -58,4 +58,4 @@ https://www.npmjs.com/package/chart.js?activeTab=readme
 
 ## License
 
-- Covered by MIT license [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+- Covered by MIT license ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
