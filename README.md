@@ -18,7 +18,7 @@ When you select navigation for the workout. If you haven't track any activity, y
 
 When you press the track activity button, you will be presented with a list of exercise and options to enter times you spend on the exercise you did. Once you press submit button, you will be redirect to the workout page with all the workout record you have submitted.
 
-When you select the navigation for Matrix, then you will presented with a bar graph on the left showing your progress of the week. Starting from Sunday to saturday, showing your total exercises time on each day. On the right side there is a top 3 workouts of the week trends bar, which showing the top three exercise that all users spend most of their times.
+When you select the navigation for Matrix, then you will presented with a bar graph on the left showing your progress of the week. Starting from Sunday to saturday, showing your total exercises time on each day. On the right side there is a top 3 workouts of the week trends bar, which showing the top three exercise based on time from all users. 
 
 The following image shows the application's usage, appearance and functionality:
 ![alt text](/public/img/login-page.png)
@@ -54,8 +54,8 @@ https://www.npmjs.com/package/chart.js?activeTab=readme
 
 - [The URL of the functional deployed application](https://gentle-garden-16426.herokuapp.com/login)
 
-- [The URL of GitHub Repository](https://github.com/Focrult/Fitness-Application)
+- [The URL of GitHub Repository](https://github.com/zhou7cathy/Fitness-Application)
 
 ## License
 
-- Covered by ISC license [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+- Covered by MIT license [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
