@@ -24,7 +24,7 @@ const workoutExerciseTagData = [
   {
     workout_id:2,
     exercise_id: 3,
-    exercise_time: 90,
+    exercise_time: 10,
   },  
   {
     workout_id:2,
@@ -34,7 +34,7 @@ const workoutExerciseTagData = [
   {
     workout_id:3,
     exercise_id: 3,
-    exercise_time: 90,
+    exercise_time: 10,
   },  
   {
     workout_id:4,
