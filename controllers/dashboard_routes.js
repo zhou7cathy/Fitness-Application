@@ -58,7 +58,7 @@ router.get('/workout', withAuth, async (req, res) => {
       workout.exercise_name = '';
       workout.exercise_time = 0;
       workout.exercises.forEach(exercise => {
-        workout.exercise_name += exercise.exercise_name + ' ';
+        workout.exercise_name += exercise.exercise_name +'✅ ';
         workout.exercise_time += exercise.workout_exercise.exercise_time;
       })
     });
