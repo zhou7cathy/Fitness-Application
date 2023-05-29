@@ -52,7 +52,7 @@ https://www.npmjs.com/package/chart.js?activeTab=readme
 
 ## Links
 
-- [The URL of the functional deployed application](https://gentle-garden-16426.herokuapp.com/login)
+- [The URL of the functional deployed application](https://fathomless-beyond-92127.herokuapp.com/)
 
 - [The URL of GitHub Repository](https://github.com/zhou7cathy/Fitness-Application)
 
