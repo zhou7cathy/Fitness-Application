@@ -1,5 +1,7 @@
 # Title: SwoleMate & BuffBae
 
+An easy-to-use fitness tracker.
+
 ## Description
 
 The SwoleMate & BuffBae application is an easy-to-use fitness tracker for the users. It records your day-to-day physical activities. Providing a variety of visuals to display your progress. As well as the most popular workout trends on our site. It's secure and compatible with various mobile devices.
