@@ -1,10 +1,27 @@
 # Title: SwoleMate & BuffBae
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-An easy-to-use fitness tracker.
-
+## Table of Contents
+- [Description](#Description)
+- [Technologies](#Technologies)
+- [Usage](#Usage)
+- [License](#License)
+- [Contribution](#Contribution)
+- [Deployment](##Deployment)
+  
 ## Description
 
 The SwoleMate & BuffBae application is an easy-to-use fitness tracker for the users. It records your day-to-day physical activities. Providing a variety of visuals to display your progress. As well as the most popular workout trends on our site. It's secure and compatible with various mobile devices.
+
+## Technologies
+
+Chart.js <br />
+Bootstrap <br />
+Mysql2 <br />
+Express <br />
+Handlebars <br />
+Moment <br />
+Express-session <br />
 
 ## Usage
 
@@ -28,15 +45,9 @@ The following image shows the application's usage, appearance and functionality:
 ![alt text](/public/img/workout-page.png)
 ![alt text](/public/img/matrix-page.png)
 
-## Installation
+## License
 
-Chart.js <br />
-Bootstrap <br />
-Mysql2 <br />
-Express <br />
-Handlebars <br />
-Moment <br />
-Express-session <br />
+- Covered by MIT license ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Contribution
 
@@ -48,16 +59,9 @@ https://github.com/Tesfa8186
 
 https://github.com/sammy8078
 
-## Credits
-
-https://www.npmjs.com/package/chart.js?activeTab=readme
-
-## Links
+## Deployment
 
 - [The URL of the functional deployed application](https://fathomless-beyond-92127.herokuapp.com/)
+  
 
-- [The URL of GitHub Repository](https://github.com/zhou7cathy/Fitness-Application)
 
-## License
-
-- Covered by MIT license ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
