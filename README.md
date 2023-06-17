@@ -15,6 +15,11 @@ The SwoleMate & BuffBae application is an easy-to-use fitness tracker for the us
 
 ## Technologies
 
+HTML <br />
+CSS <br />
+JavaScript <br />
+Bcrypt <br />
+Dotenv <br />
 Chart.js <br />
 Bootstrap <br />
 Mysql2 <br />
@@ -22,6 +27,7 @@ Express <br />
 Handlebars <br />
 Moment <br />
 Express-session <br />
+Sequelize <br />
 
 ## Usage
 
